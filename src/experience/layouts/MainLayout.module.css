@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--color-primary-bg);
+}
+
+.mainContent {
+    flex: 1;
+    margin-left: var(--sidebar-width);
+    /* Offset for fixed sidebar */
+    padding: 32px;
+    max-width: 1600px;
+    /* Max width constraint for very large screens */
+}

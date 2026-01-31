@@ -1,0 +1,60 @@
+
+:root {
+  /* Colors */
+  --color-primary-bg: #FFFFFF;
+  --color-secondary-bg: #F8F9FA; /* Google light grey */
+  --color-structure-border: #E8EAED; /* Separators */
+  
+  --color-text-primary: #202124; /* Google Black */
+  --color-text-secondary: #5F6368; /* Google Grey 700 */
+  --color-text-disabled: #9AA0A6; /* Google Grey 500 */
+  
+  --color-accent: #1A73E8; /* Google Blue */
+  --color-accent-hover: #1765CC;
+  --color-accent-bg: #E8F0FE; /* Light blue background for selection */
+  
+  --color-success: #1E8E3E;
+  --color-warning: #F9AB00;
+  --color-error: #D93025;
+
+  /* Typography */
+  --font-family: 'Inter', 'Roboto', sans-serif;
+  --font-size-xs: 11px;
+  --font-size-sm: 13px;
+  --font-size-base: 14px; /* Enterprise density */
+  --font-size-lg: 16px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+
+  /* Spacing */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --spacing-12: 48px;
+
+  /* Layout */
+  --header-height: 56px;
+  --sidebar-width: 256px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  
+  /* Elevation */
+  --shadow-1: 0 1px 2px 0 rgba(60,64,67,0.3), 0 1px 3px 1px rgba(60,64,67,0.15);
+  --shadow-2: 0 1px 3px 0 rgba(60,64,67,0.3), 0 4px 8px 3px rgba(60,64,67,0.15);
+}
+
+body {
+    background-color: var(--color-primary-bg);
+    color: var(--color-text-primary);
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
